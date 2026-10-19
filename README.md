@@ -1,18 +1,41 @@
-# Funiro React Responsive Landing Page
+# Funiro Furniture Landing Page
 
-Responsive React/Vite recreation of the supplied Funiro landing-page reference using real HTML/CSS components (not a single screenshot).
+Responsive furniture landing page built with React, Vite, and custom CSS.
 
-## Run
+[Live deployment](https://furniture-react-alpha.vercel.app)
+
+## Overview
+
+- Component-based furniture landing page
+- Responsive layout and styling
+
+## Stack
+
+React, Vite.
+
+## Run locally
 
 ```bash
+git clone https://github.com/AbdulSamadAhsan/furniture_react.git
+cd furniture_react
 npm install
+```
+
+```bash
 npm run dev
 ```
 
-## Build
+Use the local URL printed by the development server.
 
-```bash
-npm run build
-```
+## Available checks
 
-The layout includes responsive header/navigation, hero, benefits, products, rooms inspiration, tips, furniture gallery, and footer.
+| Command | Script |
+| --- | --- |
+| `npm run build` | `vite build` |
+| `npm run preview` | `vite preview` |
+
+These commands are defined by the project; documentation updates do not imply they have been run.
+
+## Author
+
+[Syed Abdul Samad Ahsan](https://github.com/AbdulSamadAhsan)
